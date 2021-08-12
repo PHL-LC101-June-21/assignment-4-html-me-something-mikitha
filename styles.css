@@ -1,1 +1,78 @@
-/* Write your CSS here! */
+
+
+
+body {
+    background-color: white;
+    margin:8px;
+   display: block
+   padding:100px
+
+
+}
+
+.funParagraph {
+        color: green
+        
+}
+
+p {
+    display:block
+    padding: 100px
+}
+
+#mainHeading {
+   text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size:xx-large
+    width: 500px
+    
+    
+
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+img {
+    float: left;
+   width:400px;
+   padding-bottom: 10px; 
+    
+}
+
+title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center; 
+    
+
+}
+
+
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    margin:auto
+
+}
+
+figcaption{
+    font-style:italic;
+    background-color: linen;
+    width: 30%;
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
